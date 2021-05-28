@@ -1,0 +1,31 @@
+package com.javaex.practice;
+
+import java.util.Scanner;
+
+public class Ex07 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("숫자를 입력하세요");
+		int a = sc.nextInt();
+		
+		
+		for( int y = 0; y<=a; y++) {
+			
+			for (int x = 0; x<y; x++) {
+
+				System.out.print(y);
+			
+			}
+			System.out.println();
+		}
+		
+		
+		
+		sc.close();
+
+	}
+
+}
