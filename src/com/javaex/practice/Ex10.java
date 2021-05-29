@@ -11,7 +11,7 @@ public class Ex10 {
 		
 		System.out.println("숫자를 입력하세요");
 		
-		
+		/*
 		System.out.println("숫자 : ");
 		int n1 = sc.nextInt();
 		
@@ -49,10 +49,25 @@ public class Ex10 {
 				break;
 			}
 		}
-		
+		*/
 		
 		//이거 말고 다른 방법이 있을거같은데 일단 이방식으로
 
+		
+		int n;
+		int s = 0;
+		
+		
+		for(int a = 0; a<5; a++) {
+			System.out.print("숫자 : ");
+			n = sc.nextInt();
+			if(n>s) {
+				s=n;
+			}
+;		}
+			
+		System.out.println("최대값은 " + s + "입니다.");
+		
 		sc.close();
 	}
 
